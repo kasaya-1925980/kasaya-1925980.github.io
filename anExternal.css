@@ -1,0 +1,40 @@
+
+.samoyedImg {
+    height: 50px;
+    width: 50px
+}
+
+#samoyed3container {
+    position:relative;    
+}
+
+#samoyed3 {
+    width:100%;
+    height:auto; 
+    margin:20px;
+}
+
+#samoyed3text {
+    Left: 50%;
+    border-style: dotted;
+    text-shadow: 5px 5px 5px purple;
+    position:absolute;
+    text-align:center;
+    top:50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#samoyed4 {
+    float: right;
+    background: rgb(192, 165, 207);
+    padding:20px;
+    width:200px;
+    height:150px;
+    border-radius:25px;
+}
+
+#samoyed4Img {
+    width:150px;
+}
