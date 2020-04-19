@@ -1,0 +1,71 @@
+body{
+background-image: url('PokemonBackground.png');
+}
+
+fieldset{
+border: solid;
+border-color: rgb(5, 5, 143);
+border-width: 5px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+width: 300px;
+background-color: rgb(186, 205, 240);
+}
+
+img{
+float: right;
+
+}
+
+h2{
+font-family: 'Sigmar One';
+font-size: 30px;
+font-weight: bold; 
+color:gold;
+text-shadow: 2px 2px rgb(5, 5, 143);
+text-align: center;
+text-decoration-line: underline;
+text-decoration-color: black;
+}
+
+legend{
+font-family: 'Sigmar One';
+font-size: 20px;
+text-align: center;
+color: white;
+text-shadow: 2px 2px black;
+}
+
+#Subtitles{
+font-family: 'Oswald', sans-serif;
+font-size: 18px;
+font-weight: bold;
+float: auto;
+}
+
+#Availability{
+font-family: 'Oswald', sans-serif;
+font-weight: bold;
+font-size: 18px;
+}
+
+p{
+font-family: 'Oswald', sans-serif;
+font-size: 16px;
+}
+
+h3{
+font-family: 'Oswald', sans-serif;
+font-size: 20px;
+font-weight: bolder;
+}
+
+#References{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+input{
+color: rgb(206, 0, 0);
+}

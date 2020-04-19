@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pokémon Center Job Application</title>
+	<link rel="stylesheet" type="text/css" href="jobApplicationForm.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<img src="https://icons-for-free.com/iconfiles/png/512/pokemon+pokecenter-1320568182920890288.png" 
+	alt="PokemonCenter"
+	width="300" height="300">
+
+	<h2>Pokémon Center Job Application</h2>
+	<fieldset>
+		<legend> About this Application</legend>
+		<p>
+			Please fill out all form contents below and press the submit button on the very bottom left of the page when finished.
+		</p>
+	</fieldset>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post">
+
+	<fieldset id="box1">
+		<legend>Make an Account:</legend>
+		<div class="field" id="Subtitles">
+			<label>Username:</label> 
+			<input type="text" name="username">
+		</div>
+		<div class="field" id="Subtitles">
+			<label>Email:</label> 
+			<input type="text" name="email">
+		</div>
+		<div class="field" id="Subtitles">
+			<label>Password:</label> 
+			<input type="password" name="password">
+		</div>
+		<div class="field" id="Subtitles">
+			<label>Repeat password:</label> 
+			<input type="password" name="password_r">
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Personal Information</legend>
+		<div class="field" id="Subtitles">
+			<label>Full Name:</label> 
+			<input type="text" name="name">
+		</div>
+		<div class="field" id="Subtitles">
+			<label>ID number:</label> 
+			<input type="text" name="ID">
+		</div>
+		<div class="field" id="Subtitles">
+			<label>Street Address:</label> 
+			<input type="text" name="street">
+		</div>
+		<div class="field" id="Subtitles">
+			<label>City:</label> 
+			<input type="text" name="city">
+		</div>
+		<div class="field" id="Subtitles">
+			<label>Region:</label> 
+			<select name="Region">
+				<option value="" selected="true">Choose a Region</option>
+				<option value="AL">Alola</option>
+				<option value="AM">Almia</option>
+				<option value="FR">Ferrum</option>
+				<option value="GA">Galar</option>
+				<option value="HO">Hoenn</option>
+				<option value="JO">Johto</option>
+				<option value="KL">Kalos</option>
+				<option value="KN">Kanto</option>
+				<option value="OB">Oblivia</option>
+				<option value="OR">Orre</option>
+				<option value="PA">Pasio</option>
+				<option value="RA">Ransei</option>
+				<option value="SN">Sinnoh</option>
+				<option value="UN">Unova</option>
+			</select>
+		</div>
+		<div class="field" id="Subtitles">
+			<label>ZIP:</label> 
+			<input type="text" name="zip">
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Availability</legend>
+		<div class="field" id="Availability">
+			<label>Are you legally able to be employed in this Region?</label> 
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No
+		</div>
+		<div class="field" id="Availability">
+			<label>What type of position are you seeking? (check all that apply)</label>
+			<ul>
+				<li><input type="checkbox" name="position_pt" value="parttime">Part time Nurse</li>
+				<li><input type="checkbox" name="position_ft" value="fulltime">Full time Nurse</li>
+				<li><input type="checkbox" name="position_dt" value="doctor">Pokémon Physician</li>
+				<li><input type="checkbox" name="position_rs" value="researcher">Pokémon Researcher</li>
+			</ul>
+		</div>
+		<div class="field" id="Availability">
+			<label>Hours available</label>
+			<table>
+				<tr>
+					<td></td>
+					<th>Sun</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th>Sat</th>
+				</tr>
+				<tr>
+					<th>From</th>
+					<td><input type="time" size="5" name="su_from"></td>
+					<td><input type="time" size="5" name="mo_from"></td>
+					<td><input type="time" size="5" name="tu_from"></td>
+					<td><input type="time" size="5" name="we_from"></td>
+					<td><input type="time" size="5" name="th_from"></td>
+					<td><input type="time" size="5" name="fr_from"></td>
+					<td><input type="time" size="5" name="sa_from"></td>
+				</tr>
+				<tr>
+					<th>Until</th>
+					<td><input type="time" size="5" name="su_until"></td>
+					<td><input type="time" size="5" name="mo_until"></td>
+					<td><input type="time" size="5" name="tu_until"></td>
+					<td><input type="time" size="5" name="we_until"></td>
+					<td><input type="time" size="5" name="th_until"></td>
+					<td><input type="time" size="5" name="fr_until"></td>
+					<td><input type="time" size="5" name="sa_until"></td>
+				</tr>
+			</table>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Personal Statement</legend>
+		<div class="field" id="Availability">
+			<label>Why do you want to join our Pokémon Center team?</label><br>
+			<textarea name="deserve" rows="6" cols="60"></textarea>
+		</div>
+		<div class="field" id="Availability">
+			<label>Tell us about a time you helped a Pokémon.</label><br>
+			<textarea name="project" rows="6" cols="60"></textarea>
+		</div>
+		<div class="field" id="Availability">
+			<label>Resume:</label><br>
+			<form action="/action_page.php">
+				<input type="file" id="myFile" name="filename">
+			  </form>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>References</legend>
+		<div class="field" id="References">
+			<p>Please submit the contact information of 2 references.</p>
+			<h3>Reference 1:</h3>
+			<label>Name:</label>
+			<input type="text" name="nameref">
+		</div>
+		<div class="field" id="References">
+			<label>Phone Number:</label>
+			<input type="tel" id="phone" name="phone" placeholder="(123)-456-7890" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+		</div>
+		<div class="field" id="References">
+			<label>Email:</label>
+			<input type="text" name="emailref">
+		</div>
+		<div class="field" id="References">
+			<h3>Reference 2</h3>
+			<label>Name:</label>
+			<input type="text" name="nameref">
+		</div>
+		<div class="field" id="References">
+			<label>Phone Number:</label>
+			<input type="tel" id="phone" name="phone" placeholder="(123)-456-7890" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+		</div>
+		<div class="field" id="References">
+			<label>Email:</label>
+			<input type="text" name="emailref">
+		</div>
+		</div>
+	</fieldset>
+
+	<input type="submit" value="Submit form" id="submitbutton">
+
+</form>
+</body>
+</html>
